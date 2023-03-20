@@ -1,14 +1,15 @@
 #include <stdio.h>
 /*
- * main - all code goes under this function
+ * main - starting point of execution.
+ * return - always returns 0.
  */
 int main(void)
 {
 char c = 'a';
 while (c <= 'z')
-c = c + 1;
 {
 putchar(c);
+c = c + 1;
 }
 putchar('\n');
 return (0);
