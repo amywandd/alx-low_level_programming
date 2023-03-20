@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - starting point of execution.
+ * main function-starting point of execution.
  * return - always returns 0.
  */
 int main(void)
