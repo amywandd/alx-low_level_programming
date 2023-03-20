@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main function-starting point of execution.
+ * main - prints alphabet in lowercase.
  * return - always returns 0.
  */
 int main(void)
