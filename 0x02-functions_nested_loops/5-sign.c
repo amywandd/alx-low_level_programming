@@ -8,18 +8,18 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-putchar(86);
 return (1);
+putchar(86);
 }
 else if (n == 0)
 {
-putchar(48);
 return (0);
+putchar(48);
 }
 else if (n < 0)
 {
+return -1;
 putchar(88);
-return (-1);
 }
 return (0);
 }
