@@ -9,7 +9,7 @@ int t = '0';
 char c = 'a';
 for (; t <= 10; t++)
 {
-putchar('\n);
+putchar('\n');
 for (; c <= 'z'; c++)
 {
 putchar(c);
