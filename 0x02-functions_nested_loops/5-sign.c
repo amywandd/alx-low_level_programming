@@ -21,4 +21,5 @@ else if (n < 0)
 putchar(88);
 return (-1);
 }
+return (0);
 }
