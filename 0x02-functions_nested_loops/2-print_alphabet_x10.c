@@ -3,7 +3,9 @@
  * print_alphabet_x10 - prints the alphabet ten times
  * return: 0 (success)
  */
+
 void print_alphabet_x10(void)
+
 {
 int t = '0';
 while (t <= 10)
@@ -18,3 +20,4 @@ putchar('\n');
 t = t + 1;
 }
 }
+
