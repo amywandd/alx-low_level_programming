@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main- entry point
- *
- * Return: 0 (success)
+ * print_alphabet - function that prints the alphabet in lowercase
+ * Return:0 (success)
  */
-int main()
+void print_alphabet(void)
 {
 char c = 'a';
 while (c <= 'z')
@@ -13,5 +12,4 @@ putchar(c);
 c = c + 1;
 }
 putchar('\n');
-return (0);
 }
