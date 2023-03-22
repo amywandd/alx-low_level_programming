@@ -5,6 +5,13 @@
  */
 int print_last_digit(int c)
 {
-int n = c % 10;
-return (n);
+if (c >= '0' && c <= '9')
+{
+return(c);
+}
+else
+{
+c = _abs(c % 10);
+return(c);
+}
 }
