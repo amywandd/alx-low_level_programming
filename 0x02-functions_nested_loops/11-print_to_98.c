@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_to_98 - prints from n to 98
+ * n: parameter function
  * return: 0 (success)
  */
 void print_to_98(int n)
