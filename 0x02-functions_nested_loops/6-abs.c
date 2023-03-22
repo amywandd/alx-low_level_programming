@@ -4,15 +4,14 @@
  * c: parameter function
  * Return: 0 success
  */
-int _abs(int)
+int _abs(int c)
 {
-int n;
-if (n < 0)
+if (c < 0)
 {
-return -n;
+return -c;
 }
 else
 {
-return n;
+return c;
 }
 }
