@@ -8,15 +8,15 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-return (43 + 1);
+return "+";
 }
 else if (n == 0)
 {
-return (48 + 0);
+return "0";
 }
 else if (n < 0)
 {
-return (45 + 1);
+return "-";
 }
 return (0);
 }
