@@ -7,10 +7,10 @@ void more_numbers(void)
 {
 int t = 0;
 int c = '0';
-int d = "14";
+int num = 14;
 for (; t <= 10; t++)
 {
-for (; c <= d; c++)
+for (; c <= num; c++)
 {
 _putchar(c);
 }
