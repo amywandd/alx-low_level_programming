@@ -12,9 +12,9 @@ for (c = 0; c <= 14; c++)
 {
 if (t > 9)
 {
-_putchar((n / 10) + '0');
+_putchar((c / 10) + '0');
 }
-_putchar((n % 10) + '0');
+_putchar((c % 10) + '0');
 }
 _putchar('\n');
 }
