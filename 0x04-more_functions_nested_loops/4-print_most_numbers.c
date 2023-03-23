@@ -12,4 +12,5 @@ if (c != '2' && c != '4')
 _putchar(c);
 c = c + 1;
 }
+_putchar('\n');
 }
