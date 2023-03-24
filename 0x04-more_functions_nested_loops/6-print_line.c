@@ -11,7 +11,8 @@ _putchar('\n');
 }
 else
 {
-for(int i = 0; i <= n; i++)
+int i = 0;
+for(; i <= n; i++)
 {
 _putchar(95);
 }
