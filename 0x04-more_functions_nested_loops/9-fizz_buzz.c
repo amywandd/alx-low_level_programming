@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
  * main - entry point
- * return: 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
 int i;
-for (i = 0; i <= 100; i++)
+for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
