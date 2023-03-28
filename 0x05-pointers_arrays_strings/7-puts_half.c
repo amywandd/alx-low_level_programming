@@ -11,12 +11,14 @@ int n;
 int len = strlen(str);
 if (len % 2 == 0)
 {
-n = len / 2;
+while ((n = len / 2))
+{
+_putchar(str[n]);
 n++;
+}
 }
 else
 {
 n = (len - 1) / 2;
 }
-_putchar(str[n]);
 }
