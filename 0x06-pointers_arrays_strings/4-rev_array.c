@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * reverse_array - reverses an array
  * @a: parameter function
@@ -7,9 +8,16 @@
  */
 void reverse_array(int *a, int n)
 {
-int i;
-for (i = n - 1; i >= 0; i--)
+int i = n - 1;
+if (i == 0)
 {
-_putchar(a[i]);
+printf("\n");
+}
+else
+{
+for (; i >= 0; i--)
+{
+printf("%d, ", a[i]);
+}
 }
 }
