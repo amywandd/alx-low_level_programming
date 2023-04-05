@@ -1,6 +1,4 @@
 #include "main.h"
-#include <math.h>
-#include <stdio.h>
 /**
  * _pow_recursion - function that returns value of x raised to y
  * @x: function parameter
@@ -13,8 +11,12 @@ if (y < 0)
 {
 return (-1);
 }
+else if (y == 0)
+{
+return (1);
+}
 else
 {
-return (pow(x, y));
+return (x * _pow_recursion(x, y - 1));
 }
 }
