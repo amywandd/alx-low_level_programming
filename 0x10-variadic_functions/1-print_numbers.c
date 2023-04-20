@@ -13,12 +13,12 @@ va_list(arg);
 va_start(arg, n);
 for (i = 0; i < n; i++)
 {
-if (separator == NULL)
+if (separator != NULL && i < n - 1)
 {
-printf("%d", va_arg(arg, int));
+printf("%d%s", va_arg(arg, int), separator);
 }
 else
-printf("%d%s", va_arg(arg, int), separator);
+printf("%d", va_arg(arg, int));
 }
 printf("\n");
 }
