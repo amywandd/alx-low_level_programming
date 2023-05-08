@@ -3,7 +3,7 @@
 /**
  * create_file - creates a file
  * @filename: parameter function
- * @text_content - parameter function
+ * @text_content: parameter function
  * Return: -1 or filename
  */
 int create_file(const char *filename, char *text_content)
@@ -23,6 +23,6 @@ w = write(fd, text_content, len);
 }
 if (w == -1)
 return (-1);
-close (fd);
+close(fd);
 return (1);
 }
