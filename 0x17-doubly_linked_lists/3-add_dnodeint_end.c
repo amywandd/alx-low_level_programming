@@ -12,10 +12,11 @@ dlistint_t *temp = malloc(sizeof(dlistint_t));
 if (temp == NULL)
 return (NULL);
 temp->n = n;
+temp->next = NULL;
 if (*head == NULL)
 {
 temp->prev = NULL;
-temp->next = NULL;
+*head = temp;
 }
 else
 {
@@ -26,7 +27,6 @@ current = current->next;
 }
 current->next = temp;
 temp->prev = current;
-temp->next = NULL;
 }
 return (temp);
 }
