@@ -15,7 +15,7 @@ dlistint_t *current = *h;
 if (*h == NULL)
 return (NULL);
 if (idx == 0)
-return add_dnodeint(h, n);
+return (add_dnodeint(h, n));
 while (current != NULL)
 {
 if (count == idx - 1)
@@ -26,7 +26,7 @@ temp->next = current->next;
 if (current->next != NULL)
 current->next->prev = temp;
 current->next = temp;
-return temp;
+return (temp);
 }
 current = current->next;
 count++;
