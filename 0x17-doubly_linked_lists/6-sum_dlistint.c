@@ -7,7 +7,6 @@
 int sum_dlistint(dlistint_t *head)
 {
 int total = 0;
-int n = 0;
 dlistint_t *current = head;
 if (head == NULL)
 return (0);
@@ -15,9 +14,8 @@ else
 {
 while (current->next != NULL)
 {
+total += current->n;
 current = current->next;
-n = current->n;
-total += n;
 }
 }
 return (total);
