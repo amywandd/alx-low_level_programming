@@ -12,7 +12,7 @@ if (head == NULL)
 return (0);
 else
 {
-while (current->next != NULL)
+while (current != NULL)
 {
 total += current->n;
 current = current->next;
