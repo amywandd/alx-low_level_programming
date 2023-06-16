@@ -14,10 +14,10 @@ if (head == NULL)
 return (NULL);
 while (temp != NULL)
 {
-temp = temp->next;
-count++;
 if (count == index)
 return (temp);
+temp = temp->next;
+count++;
 }
 return (NULL);
 }
