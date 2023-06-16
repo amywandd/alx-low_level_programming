@@ -14,18 +14,22 @@ dlistint_t *temp = malloc(sizeof(dlistint_t));
 dlistint_t *current = *h;
 if (*h == NULL)
 return (NULL);
+if (idx == 0)
+return add_dnodeint(h, n);
 while (current != NULL)
 {
-current = current->next;
-count++;
-if (idx != count)
-continue;
-else
+if (count == idx - 1)
 {
 temp->n = n;
 temp->prev = current;
+temp->next = current->next;
+if (current->next != NULL)
+current->next->prev = temp;
 current->next = temp;
+return temp;
 }
+current = current->next;
+count++;
 }
-return (temp);
+return (NULL);
 }
