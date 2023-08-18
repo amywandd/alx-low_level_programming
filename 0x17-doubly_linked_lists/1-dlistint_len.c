@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "lists.h"
 #include <stdio.h>
 /*
@@ -14,4 +15,5 @@ while (temp != NULL)
 count++;
 temp = temp->next;
 }
-retrn (count);
+return (count);
+}
