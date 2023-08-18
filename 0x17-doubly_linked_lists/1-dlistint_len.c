@@ -1,7 +1,7 @@
 #include <stddef.h>
 #include "lists.h"
 #include <stdio.h>
-/*
+/**
  * dlistint_len - returns the number of elements in a list
  * @h: parameter function
  * Return: number of elements
