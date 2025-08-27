@@ -1,8 +1,10 @@
 #include<stdio.h>
 /*
- * Main - entry pint
+ * Main - entry point
+ * Return - value success
  */
-int main(void){
-printf("with proper grammar, but the outcome is a piece of art,\n");
-return(0);
+int main(void)
+{
+printf ("with proper grammar, but the outcome is a piece of art,\n");
+return (0);
 }
